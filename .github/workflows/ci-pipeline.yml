@@ -44,7 +44,7 @@ jobs:
 
       - name: Analyze code
         shell: pwsh
-        run: ./scripts/analyzeInspectCodeOutput.ps1 -inspectOutputPath ./inspectcode-result.json
+        run: ./.github/workflows/scripts/analyzeInspectCodeOutput.ps1 -inspectOutputPath ./inspectcode-result.json
 
       - name: Test with the dotnet CLI
         run: dotnet test ${{ env.solutionPath }} --no-build --no-restore
