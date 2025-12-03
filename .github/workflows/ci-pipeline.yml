@@ -33,6 +33,12 @@ jobs:
       - name: Build
         run: dotnet build ${{ env.solutionPath }} --configuration Release --no-restore
 
+      # ----- Git leaks -----
+      - name: Git leak
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # ----- Generate SBOM -----
       - name: Generate XML SBOM
         uses: CycloneDX/gh-dotnet-generate-sbom@v1
