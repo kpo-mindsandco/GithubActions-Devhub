@@ -42,4 +42,4 @@ jobs:
         uses: gittools/actions/gitversion/execute@v4.2.0
 
       - name: Test with the dotnet CLI
-        run: dotnet test ${{ env.solutionPath }} --no-build
+        run: dotnet test ${{ env.solutionPath }}
