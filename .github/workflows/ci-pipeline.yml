@@ -64,7 +64,7 @@ jobs:
         shell: pwsh
         run: |
           ${{ runner.temp }}/scanner/dotnet-sonarscanner begin /k:"kpo-shoppingCart" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
-          dotnet build
+          dotnet build ${{ env.solutionPath }}
           ${{ runner.temp }}/scanner/dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
       - name: Download ReSharper Command Line Tools
