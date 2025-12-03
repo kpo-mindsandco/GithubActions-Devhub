@@ -32,6 +32,20 @@ jobs:
       - name: Build
         run: dotnet build ${{ env.solutionPath }} --configuration Release --no-restore
 
+      - name: Generate XML SBOM
+        uses: CycloneDX/gh-dotnet-generate-sbom@v1
+        with:
+          path: ./${{ env.solutionPath }}
+
+      - name: Upload XML SBOM
+        uses: DependencyTrack/gh-upload-sbom@v3
+        with:
+          serverHostname: 'http://4.180.58.159:8080/'
+          apiKey: ${{ secrets.DEPENDENCYTRACK_APIKEY }}
+          project: '3fccfcda-2cab-40f5-bda0-ba6b43d5d1bd'
+          bomFilename: 'bom.xml'
+          autoCreate: true
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -73,11 +87,6 @@ jobs:
           dotnet tool install JetBrains.ReSharper.GlobalTools
           # In the build script
           dotnet tool restore
-
-      - name: Generate XML SBOM
-        uses: CycloneDX/gh-dotnet-generate-sbom@v1
-        with:
-          path: ./${{ env.solutionPath }}
 
       - name: Inspect code
         run: dotnet tool run jb inspectcode ${{ env.solutionPath }} -o=./inspectcode-result.json
