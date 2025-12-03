@@ -40,7 +40,9 @@ jobs:
       - name: Upload XML SBOM
         uses: DependencyTrack/gh-upload-sbom@v3
         with:
-          serverHostname: 'http://4.180.58.159:8080/'
+          protcol: 'http'
+          serverHostname: '4.180.58.159'
+          port: '8080'
           apiKey: ${{ secrets.DEPENDENCYTRACK_APIKEY }}
           project: '3fccfcda-2cab-40f5-bda0-ba6b43d5d1bd'
           bomFilename: 'bom.xml'
