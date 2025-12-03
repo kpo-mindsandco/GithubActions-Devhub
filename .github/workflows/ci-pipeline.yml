@@ -42,6 +42,13 @@ jobs:
       - name: Inspect code
         run: dotnet tool run jb inspectcode ${{ env.solutionPath }} -o=./inspectcode-result.json
 
+      - name: Analyze code
+        shell: pwsh
+        run: ./scripts/analyzeInspectCodeOutput.ps1 -inspectOutputPath ./inspectcode-result.json
+
+      - name: Test with the dotnet CLI
+        run: dotnet test ${{ env.solutionPath }} --no-build --no-restore
+
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v4.2.0
         with:
@@ -50,6 +57,3 @@ jobs:
       - name: Determine Version
         id: version_step # step id used as a reference for output values
         uses: gittools/actions/gitversion/execute@v4.2.0
-
-      - name: Test with the dotnet CLI
-        run: dotnet test ${{ env.solutionPath }} --no-build --no-restore
