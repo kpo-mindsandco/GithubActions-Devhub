@@ -507,12 +507,6 @@ C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Tests/bin
 C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Tests/bin/Debug/net9.0/002 - InsertItems.sql
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_ShoppingCart.Tests
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/CoverletSourceRootsMapping_ShoppingCart.Tests
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/NUnit3.TestAdapter.dll
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/NUnit3.TestAdapter.pdb
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/nunit.engine.dll
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/nunit.engine.api.dll
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/nunit.engine.core.dll
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/testcentric.engine.metadata.dll
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/ShoppingCart.deps.json
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/ShoppingCart.runtimeconfig.json
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/appsettings.Development.json
@@ -893,8 +887,6 @@ C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Tests/bin
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/testhost.dll
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/Newtonsoft.Json.dll
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/nunit.framework.dll
-/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/nunit.framework.legacy.dll
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/ICSharpCode.SharpZipLib.dll
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/Renci.SshNet.dll
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/System.ClientModel.dll
@@ -1013,3 +1005,6 @@ C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Tests/bin
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/obj/Debug/net9.0/ShoppingCart.Tests.pdb
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/obj/Debug/net9.0/ShoppingCart.Tests.genruntimeconfig.cache
 /Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/obj/Debug/net9.0/ref/ShoppingCart.Tests.dll
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/xunit.runner.visualstudio.testadapter.dll
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/bin/Debug/net9.0/xunit.runner.utility.netcoreapp10.dll
