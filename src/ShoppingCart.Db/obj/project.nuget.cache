@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "q0xqgSug1l8=",
+  "dgSpecHash": "FP5Oxe5sEGI=",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj",
+  "projectFilePath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/ShoppingCart.Db.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AndersStrøm\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\AndersStrøm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\AndersStrøm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+    "/Users/kevinpongo/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/Users/kevinpongo/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

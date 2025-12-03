@@ -1398,37 +1398,6 @@
           }
         }
       },
-      "NUnit/4.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/nunit.framework.dll": {
-            "related": ".legacy.xml;.xml"
-          },
-          "lib/net6.0/nunit.framework.legacy.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/nunit.framework.dll": {
-            "related": ".legacy.xml;.xml"
-          },
-          "lib/net6.0/nunit.framework.legacy.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "build/NUnit.props": {}
-        }
-      },
-      "NUnit.Analyzers/4.4.0": {
-        "type": "package"
-      },
-      "NUnit3TestAdapter/4.6.0": {
-        "type": "package",
-        "build": {
-          "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
-        }
-      },
       "SharpZipLib/1.4.2": {
         "type": "package",
         "compile": {
@@ -1783,6 +1752,18 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "xunit.runner.visualstudio/2.8.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "build": {
+          "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
       "ShoppingCart/1.0.0": {
@@ -3661,76 +3642,6 @@
         "packageIcon.png"
       ]
     },
-    "NUnit/4.2.2": {
-      "sha512": "mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
-      "type": "package",
-      "path": "nunit/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "NOTICES.md",
-        "README.md",
-        "THIRD_PARTY_NOTICES.md",
-        "build/NUnit.props",
-        "icon.png",
-        "lib/net462/nunit.framework.dll",
-        "lib/net462/nunit.framework.legacy.dll",
-        "lib/net462/nunit.framework.legacy.xml",
-        "lib/net462/nunit.framework.xml",
-        "lib/net6.0/nunit.framework.dll",
-        "lib/net6.0/nunit.framework.legacy.dll",
-        "lib/net6.0/nunit.framework.legacy.xml",
-        "lib/net6.0/nunit.framework.xml",
-        "nunit.4.2.2.nupkg.sha512",
-        "nunit.nuspec"
-      ]
-    },
-    "NUnit.Analyzers/4.4.0": {
-      "sha512": "VVl1CuQttXRZh52HRw5SIOut3qXw4pmuiTYk02jTELVWZ9uYRY8IVl2qF9Zs7W0ElPiLDUrAglFBzNLBCPzEcw==",
-      "type": "package",
-      "path": "nunit.analyzers/4.4.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/cs/nunit.analyzers.dll",
-        "docs/README.md",
-        "images/nunit_256.png",
-        "license.txt",
-        "nunit.analyzers.4.4.0.nupkg.sha512",
-        "nunit.analyzers.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    },
-    "NUnit3TestAdapter/4.6.0": {
-      "sha512": "R7e1+a4vuV/YS+ItfL7f//rG+JBvVeVLX4mHzFEZo4W1qEKl8Zz27AqvQSAqo+BtIzUCo4aAJMYa56VXS4hudw==",
-      "type": "package",
-      "path": "nunit3testadapter/4.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net462/NUnit3.TestAdapter.dll",
-        "build/net462/NUnit3.TestAdapter.pdb",
-        "build/net462/NUnit3TestAdapter.props",
-        "build/net462/nunit.engine.api.dll",
-        "build/net462/nunit.engine.core.dll",
-        "build/net462/nunit.engine.dll",
-        "build/net462/testcentric.engine.metadata.dll",
-        "build/netcoreapp3.1/NUnit3.TestAdapter.dll",
-        "build/netcoreapp3.1/NUnit3.TestAdapter.pdb",
-        "build/netcoreapp3.1/NUnit3TestAdapter.props",
-        "build/netcoreapp3.1/nunit.engine.api.dll",
-        "build/netcoreapp3.1/nunit.engine.core.dll",
-        "build/netcoreapp3.1/nunit.engine.dll",
-        "build/netcoreapp3.1/testcentric.engine.metadata.dll",
-        "docs/README.md",
-        "nunit3testadapter.4.6.0.nupkg.sha512",
-        "nunit3testadapter.nuspec",
-        "nunit_256.png"
-      ]
-    },
     "SharpZipLib/1.4.2": {
       "sha512": "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
       "type": "package",
@@ -4308,6 +4219,31 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+    "xunit.runner.visualstudio/2.8.2": {
+      "sha512": "vm1tbfXhFmjFMUmS4M0J0ASXz3/U5XvXBa6DOQUL3fEz4Vt6YPhv+ESCarx6M6D+9kJkJYZKCNvJMas1+nVfmQ==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/2.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "build/net462/xunit.abstractions.dll",
+        "build/net462/xunit.runner.reporters.net452.dll",
+        "build/net462/xunit.runner.utility.net452.dll",
+        "build/net462/xunit.runner.visualstudio.props",
+        "build/net462/xunit.runner.visualstudio.testadapter.dll",
+        "build/net6.0/xunit.abstractions.dll",
+        "build/net6.0/xunit.runner.reporters.netcoreapp10.dll",
+        "build/net6.0/xunit.runner.utility.netcoreapp10.dll",
+        "build/net6.0/xunit.runner.visualstudio.props",
+        "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
+        "lib/net462/_._",
+        "lib/net6.0/_._",
+        "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
+    },
     "ShoppingCart/1.0.0": {
       "type": "project",
       "path": "../ShoppingCart/ShoppingCart.csproj",
@@ -4324,43 +4260,40 @@
       "FluentAssertions >= 8.5.0",
       "Microsoft.AspNetCore.Mvc.Testing >= 9.0.8",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
-      "NUnit >= 4.2.2",
-      "NUnit.Analyzers >= 4.4.0",
-      "NUnit3TestAdapter >= 4.6.0",
       "ShoppingCart >= 1.0.0",
       "Testcontainers.MsSql >= 4.7.0",
       "coverlet.collector >= 6.0.2",
-      "xunit >= 2.9.3"
+      "xunit >= 2.9.3",
+      "xunit.runner.visualstudio >= 2.8.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AndersStrøm\\.nuget\\packages\\": {}
+    "/Users/kevinpongo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Tests\\ShoppingCart.Tests.csproj",
+      "projectUniqueName": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/ShoppingCart.Tests.csproj",
       "projectName": "ShoppingCart.Tests",
-      "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Tests\\ShoppingCart.Tests.csproj",
-      "packagesPath": "C:\\Users\\AndersStrøm\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Tests\\obj\\",
+      "projectPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/ShoppingCart.Tests.csproj",
+      "packagesPath": "/Users/kevinpongo/.nuget/packages/",
+      "outputPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AndersStrøm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/kevinpongo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/scadaminds/f5f8b22d-000b-4783-a5d3-c052c53f36ba/_packaging/VirtualWindFarm/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj": {
-              "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj"
+            "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/ShoppingCart.csproj": {
+              "projectPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/ShoppingCart.csproj"
             }
           }
         }
@@ -4393,18 +4326,6 @@
             "target": "Package",
             "version": "[17.12.0, )"
           },
-          "NUnit": {
-            "target": "Package",
-            "version": "[4.2.2, )"
-          },
-          "NUnit.Analyzers": {
-            "target": "Package",
-            "version": "[4.4.0, )"
-          },
-          "NUnit3TestAdapter": {
-            "target": "Package",
-            "version": "[4.6.0, )"
-          },
           "Testcontainers.MsSql": {
             "target": "Package",
             "version": "[4.7.0, )"
@@ -4416,6 +4337,10 @@
           "xunit": {
             "target": "Package",
             "version": "[2.9.3, )"
+          },
+          "xunit.runner.visualstudio": {
+            "target": "Package",
+            "version": "[2.8.2, )"
           }
         },
         "imports": [
@@ -4437,10 +4362,6 @@
           {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -4448,7 +4369,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/kevinpongo/.dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

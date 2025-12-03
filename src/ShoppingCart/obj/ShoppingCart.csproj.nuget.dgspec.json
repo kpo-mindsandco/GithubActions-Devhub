@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj": {}
+    "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/ShoppingCart.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj": {
+    "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/ShoppingCart.Db.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj",
+        "projectUniqueName": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/ShoppingCart.Db.csproj",
         "projectName": "ShoppingCart.Db",
-        "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj",
-        "packagesPath": "C:\\Users\\AndersStrøm\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\obj\\",
+        "projectPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/ShoppingCart.Db.csproj",
+        "packagesPath": "/Users/kevinpongo/.nuget/packages/",
+        "outputPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AndersStrøm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/kevinpongo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/scadaminds/f5f8b22d-000b-4783-a5d3-c052c53f36ba/_packaging/VirtualWindFarm/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -63,10 +62,6 @@
             {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -74,35 +69,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/kevinpongo/.dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj": {
+    "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj",
-        "packagesPath": "C:\\Users\\AndersStrøm\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\obj\\",
+        "projectPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/ShoppingCart.csproj",
+        "packagesPath": "/Users/kevinpongo/.nuget/packages/",
+        "outputPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AndersStrøm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/kevinpongo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/scadaminds/f5f8b22d-000b-4783-a5d3-c052c53f36ba/_packaging/VirtualWindFarm/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj": {
-                "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj"
+              "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/ShoppingCart.Db.csproj": {
+                "projectPath": "/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/ShoppingCart.Db.csproj"
               }
             }
           }
@@ -161,15 +155,11 @@
               "version": "[9.0.11, 9.0.11]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
               "version": "[9.0.11, 9.0.11]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
               "version": "[9.0.11, 9.0.11]"
             }
           ],
@@ -181,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/kevinpongo/.dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

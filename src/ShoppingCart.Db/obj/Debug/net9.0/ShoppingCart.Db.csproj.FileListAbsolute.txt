@@ -1,13 +1,27 @@
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\bin\Debug\net9.0\ShoppingCart.Db.deps.json
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\bin\Debug\net9.0\ShoppingCart.Db.dll
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\bin\Debug\net9.0\ShoppingCart.Db.pdb
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ShoppingCart.Db.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ShoppingCart.Db.AssemblyInfoInputs.cache
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ShoppingCart.Db.AssemblyInfo.cs
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ShoppingCart.Db.csproj.CoreCompileInputs.cache
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ShoppingCart.Db.dll
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\refint\ShoppingCart.Db.dll
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ShoppingCart.Db.pdb
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\obj\Debug\net9.0\ref\ShoppingCart.Db.dll
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\bin\Debug\net9.0\001 - CreateDb.Sql
-C:\Dev\Personal\Uddannelse\Microservice_card\ShoppingCart\ShoppingCart.Db\bin\Debug\net9.0\002 - InsertItems.sql
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/bin/Debug/net9.0/ShoppingCart.Db.deps.json
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/bin/Debug/net9.0/ShoppingCart.Db.dll
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/bin/Debug/net9.0/ShoppingCart.Db.pdb
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.AssemblyInfoInputs.cache
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.AssemblyInfo.cs
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.csproj.CoreCompileInputs.cache
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.dll
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/refint/ShoppingCart.Db.dll
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.pdb
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/obj/Debug/net9.0/ref/ShoppingCart.Db.dll
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/bin/Debug/net9.0/001 - CreateDb.Sql
+C:/Dev/Personal/Uddannelse/Microservice_card/ShoppingCart/ShoppingCart.Db/bin/Debug/net9.0/002 - InsertItems.sql
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/bin/Debug/net9.0/001 - CreateDb.Sql
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/bin/Debug/net9.0/002 - InsertItems.sql
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/bin/Debug/net9.0/ShoppingCart.Db.deps.json
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/bin/Debug/net9.0/ShoppingCart.Db.dll
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/bin/Debug/net9.0/ShoppingCart.Db.pdb
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.AssemblyInfoInputs.cache
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.AssemblyInfo.cs
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.csproj.CoreCompileInputs.cache
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.sourcelink.json
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.dll
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/refint/ShoppingCart.Db.dll
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ShoppingCart.Db.pdb
+/Users/kevinpongo/code/GithubActions-Devhub/src/ShoppingCart.Db/obj/Debug/net9.0/ref/ShoppingCart.Db.dll
