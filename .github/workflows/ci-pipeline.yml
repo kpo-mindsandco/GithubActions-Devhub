@@ -32,6 +32,27 @@ jobs:
       - name: Build
         run: dotnet build ${{ env.solutionPath }} --configuration Release --no-restore
 
+      - name: Download ReSharper Command Line Tools
+        run: |
+          curl -L -o resharper.zip \
+            https://download.jetbrains.com/resharper/JetBrains.ReSharper.CommandLineTools.linux-x64.zip
+          unzip resharper.zip -d resharper
+
+      - name: Run ReSharper InspectCode (JSON format)
+        run: |
+          chmod +x ./resharper/inspectcode.sh
+          ./resharper/inspectcode.sh \
+            --format=json \
+            --output=inspectcode-result.json \
+            --no-build \
+            .
+
+      - name: Upload JSON Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: resharper-json
+          path: inspectcode-result.json
+
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v4.2.0
         with:
@@ -42,4 +63,4 @@ jobs:
         uses: gittools/actions/gitversion/execute@v4.2.0
 
       - name: Test with the dotnet CLI
-        run: dotnet test ${{ env.solutionPath }}
+        run: dotnet test ${{ env.solutionPath }} --no-build --no-restore
