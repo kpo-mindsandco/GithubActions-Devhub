@@ -74,6 +74,11 @@ jobs:
           # In the build script
           dotnet tool restore
 
+      - name: Generate XML SBOM
+        uses: CycloneDX/gh-dotnet-generate-sbom@v1
+        with:
+          path: ./${{ env.solutionPath }}
+
       - name: Inspect code
         run: dotnet tool run jb inspectcode ${{ env.solutionPath }} -o=./inspectcode-result.json
 
