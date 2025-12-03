@@ -13,30 +13,33 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checkout source
+      # ----- Checkout source -----
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # needed for git versioning logic
 
-      # Install .NET SDK
+      # ----- Install .NET SDK -----
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x' # or 7.0.x / 6.0.x etc.
 
-      # Restore packages
+      # ----- Restore packages -----
       - name: Restore dependencies
         run: dotnet restore ${{ env.solutionPath }}
 
+      # ----- Build the solution -----
       - name: Build
         run: dotnet build ${{ env.solutionPath }} --configuration Release --no-restore
 
+      # ----- Generate SBOM -----
       - name: Generate XML SBOM
         uses: CycloneDX/gh-dotnet-generate-sbom@v1
         with:
           path: ./${{ env.solutionPath }}
 
+      # ----- Upload SBOM -----
       - name: Upload XML SBOM
         uses: DependencyTrack/gh-upload-sbom@v3
         with:
@@ -48,6 +51,7 @@ jobs:
           bomFilename: 'bom.xml'
           autoCreate: true
 
+      # ----- Sonar Qube -----
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -83,6 +87,7 @@ jobs:
           dotnet build ${{ env.solutionPath }}
           ${{ runner.temp }}/scanner/dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
+      # ----- Install ReSharper, Inspect and Analyze code -----
       - name: Download ReSharper Command Line Tools
         run: |
           dotnet new tool-manifest
@@ -97,9 +102,11 @@ jobs:
         shell: pwsh
         run: ./.github/workflows/scripts/analyzeInspectCodeOutput.ps1 -inspectOutputPath ./inspectcode-result.json
 
+      # ----- Run tests -----
       - name: Test with the dotnet CLI
         run: dotnet test ${{ env.solutionPath }} --no-build --no-restore
 
+      # ----- Git Version -----
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v4.2.0
         with:
