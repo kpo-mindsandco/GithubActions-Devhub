@@ -2,7 +2,7 @@ version: 2
 updates:
   # NuGet package updates
   - package-ecosystem: 'nuget'
-    directory: '/'
+    directory: './src'
     schedule:
       interval: 'daily'
 
